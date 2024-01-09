@@ -1,0 +1,2 @@
+# StaticNetwork
+ My individual tasks
