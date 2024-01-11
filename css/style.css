@@ -1,0 +1,94 @@
+header{
+color:white;
+background-color: black;
+font-size: 20px;
+text-decoration: none;
+text-align: center;
+padding: 1em;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+nav{
+color:black;
+background-color: rgb(197, 19, 19);
+padding: 1.8em;
+text-align: center;
+}
+
+nav ul{
+font-size: 20px;
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: inline-block;
+}
+
+nav p{
+    font-weight: bold;
+    color: white;
+}
+
+nav.top-menu p {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.top-menu li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.top-menu a:hover{
+    color:white;
+    }
+
+
+h2{
+
+
+}
+
+p{
+
+
+}
+
+img{
+
+}
+
+section {
+
+}
+
+body{
+    background-color: white;
+    font-size: 14px;
+    margin:auto;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+footer{
+background-color: black;
+color: aliceblue;
+padding: 1em;
+}
+
+.h2spe{
+    background-color: blueviolet;
+    color:black;
+}
