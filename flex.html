@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        main, footer{
+            display: flex;
+        }
+    article{
+        background-color: rgb(177, 177, 198);
+        margin:5px;
+    }
+
+    .big{
+        flex-grow:2;
+        background-color: grey;
+    }
+
+    .small{
+        flex: 1;
+        background-color: aqua;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+
+
+</header>
+    <main>
+    <article class="big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cum, architecto, id voluptates harum corrupti facere dolore nobis ipsa officiis, at nostrum earum sit mollitia? Ipsum consectetur accusamus debitis ea!</article>
+    <article class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad neque magni vitae laborum placeat sit sapiente, repellat doloremque, veritatis culpa molestias et similique id minima sequi. Nostrum quidem nisi velit?</article>
+    <article class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia doloremque magni, suscipit qui non eius accusamus similique molestias possimus, consequatur atque laboriosam id ipsum odit. Id, nulla at! Reiciendis, recusandae.</article>
+    </main>
+
+<footer>
+<p class="big">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime excepturi asperiores consequuntur ea ab, maiores, nostrum enim veritatis doloribus, similique dignissimos eligendi. Iusto voluptatibus nostrum obcaecati doloribus. A, totam magnam.</p>
+<p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam corporis assumenda, odio repudiandae ipsa eligendi sequi ab quisquam quo nobis ullam atque autem quos aperiam culpa nesciunt ducimus est?</p>
+</footer>
+
+</body>
+</html>
