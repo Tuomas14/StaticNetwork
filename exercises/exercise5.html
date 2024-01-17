@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Basics - Exercise 5</title>
+    <meta name="author" content="Tuomas Valtonen">
     <link rel="stylesheet" href="../css/e5styles.css">
-
 </head>
 <body>
 
@@ -14,32 +14,46 @@
         <p>Your go-to place for interesting content.</p>
     </header>
 
-    <main>
-        <aside id="sidebar">
+    <nav class="container">
+        <ul>
+            <li><a href="#" class="itemNav">Home</a></li>
+            <li><a href="#" class="itemNav">About</a></li>
+            <li><a href="#" class="itemNav">News</a></li>
+            <li><a href="#" class="itemNav">Services</a></li>
+            <li><a href="#" class="itemNav">FAQ</a></li>
+            <li><a href="#" class="itemNav">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <aside class="itemSmall">
             <h2>Sidebar</h2>
             <ul>
                 <li><a href="#" class="sidebar-link">Post 1</a></li>
                 <li><a href="#" class="sidebar-link">Post 2</a></li>
                 <li><a href="#" class="sidebar-link">Post 3</a></li>
             </ul>
+
         </aside>
-    <section id="main-content">
-        <article class="content-article">
-            <h2>Article Title 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid sint voluptatem deserunt mollitia cum, eius, iste possimus dolore, id maiores? Quaerat fugiat possimus quis rerum distinctio inventore. Corporis, vero!</p>
+    <subcontainer class="subcontainer">
+        <article class="itemBig">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid sint voluptatem deserunt mollitia cum, eius, iste possimus dolore, id maiores? Quaerat fugiat possimus quis rerum distinctio inventore. Corporis, vero!
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore, distinctio veritatis necessitatibus eos dignissimos doloremque tempore iste, ipsam soluta vitae corporis rem possimus enim at, corrupti molestiae saepe cum?
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque voluptatibus ullam assumenda amet praesentium accusamus consectetur aliquam velit, doloremque, modi nam quo sit recusandae. Minus aliquam officiis sunt cupiditate! </p>
         </article>
 
-        <article class="content-article">
-            <h2>Article Title 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aliquam eligendi fuga mollitia officia commodi tempore quos odit culpa blanditiis, aperiam ad, veniam eius nobis. Repudiandae delectus repellat sit voluptatem!</p>
+        <article class="itemBig">
+            <h2>Article 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aliquam eligendi fuga mollitia officia commodi tempore quos odit culpa blanditiis, aperiam ad, veniam eius nobis. Repudiandae delectus repellat sit voluptatem!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore, distinctio veritatis necessitatibus eos dignissimos doloremque tempore iste, ipsam soluta vitae corporis rem possimus enim at, corrupti molestiae saepe cum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque voluptatibus ullam assumenda amet praesentium accusamus consectetur aliquam velit, doloremque, modi nam quo sit recusandae. Minus aliquam officiis sunt cupiditate! </p> 
         </article>
-    </section>
+    </subcontainer>
     </main>
 
-   
-
     <footer id="main-footer">
-        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>&copy; 2024 Flexbox Exercise 5 Website. All rights reserved.</p>
     </footer>
 
 </body>
