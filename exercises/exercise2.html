@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Basics - Exercise 2</title>
+    <title>HTML5 & GitHub Page - Exercise 2 and 3</title>
     <meta name="author" content="Tuomas Valtonen">
     <meta name="description" content="Pesäpallosivusto ja mainos">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    
-<header> 
-    <h1>TalviSuper <i>2024</i> on käynnissä! </h1>
+
+<nav class="top-menu">
+<ul>
+    <li>Miehet</li>
+    <li>Naiset</li>
+    <li>Liput</li>
+    <li>Info</li>
+    <li>Kumppanit</li>
+    <li>Keisarikauppa</li>
+</ul>    
+</nav>
+
+<header>
+<h1>Manse PP - Tamperelainen pesäpalloseura</h1>
 </header>
 
-<nav>
-<p> <Strong>Pesisviihdettä vuoden ympäri!</Strong> </p>
+<nav class="top-menu">
+<p> <Strong>Pesisviihdettä vuoden ympäri! | TalviSuper <i>2024</i> on käynnissä! </Strong> </p>
 </nav>
 
 <main> 
-        <section>
+    <section>
+            <h2>HTML5 & GitHub Page | Exercise 2 and 3</h2>
             <h2>Navigation</h2>
             <p><a href="https://www.superpesis.fi/">Superpesis.fi</a></p>
-        </section>
+    </section>
 
-    <article>
-            <h2>Coach's comments</h2>
+    <article> 
         <img src="../images/mic.jpg" alt="Holding Microphone" height="200" width="350" style="float:left; margin-right: 10px;">
 
+        <h2>Coach's comments</h2>
         <p>Joukkueiden juostua Pirkkahallissa esittelystä kiilaan, ilmassa oli kihelmöivää väreilyä.
         Näin aikaisin viralliset pelit eivät ole koskaan alkaneet, mutta yli 400-päinen yleisö oli suosionosoituksineen selvästi sitä mieltä
         , että nälkä oli pesäpallon seuraamiseen kasvanut jo kylliksi.
@@ -35,8 +47,69 @@
     </article>
 
     <section>
+        <h2>Questions and Answers</h2>
+        <dl>
+            <dt>Question 1</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit?</dd>
+            <dd>Alias repellendus voluptas similique ullam!</dd> 
+            
+            <dt>Question 2</dt>
+            <dd> Blanditiis, repellendus?</dd>
+            <dd>Necessitatibus voluptatem sequi nobis deleniti eius, porro voluptate officia illum perspiciatis.</dd> 
+
+            <dt>Question 3</dt>
+            <dd>porro voluptate officia illum perspiciatis?</dd>
+            <dd>Blanditiis, repellendus necessitatibus voluptatem.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Quote</h2>
+        <p>Sisäpelissä pelaajilla on erilaisia tehtäviä.
+            Etenijät ovat joukkueensa nopeimpia juoksijoita, 
+            ja lisäksi he ovat hyviä kärkkymään pesältä ja heillä on hyvä lähtönopeus. 
+            Vaihtolyöjien tarkoituksena on ensisijaisesti siirtää etenijöitä pesältä toiselle vaihtolyönneillä kuten näpyillä, 
+            pomppulyönneillä, maalyönneillä sekä polttolinjan ja koppareiden väliin osuvilla lyönneillä. 
+            Vaihtolyöjät lyövät yleensä etenijöiden jälkeen numeroilla 2, 3 ja 7. 
+            Kotiutuslyöjät pyrkivät lyömään etenijöitä kotiin. He ovat yleensä lyöntijärjestyksessä numeroita 4, 5 ja 8. 
+            Kotiutuslyöjinä käytetään myös jokeripelaajia. Joukkueella on kolme jokeria, joita käytetään taktisesti joukkueen sisäpelivoiman mukaan.</p>
+            <blockquote cite="https://fi.wikipedia.org/wiki/Pes%C3%A4pallo"><abbr title="Uniform Resource Locator">URL</abbr></blockquote>
+    </section>
+
+        <!--  Exercise 3: Validation & Adding More Elements -->
+    <a href="https://dipaish.github.io/www2020/css/devenvironment.png" download="devenvironment.png">Download File</a>
+
+    <address>
+        Address: Siilitie 14<br>
+        00980, Helsinki<br>
+        Finland.
+    </address>
+
+    <section>
+        <h2>Paragraph links</h2>
+        <p><a href="#paragraph1">Paragraph 1</a></p>
+        <p><a href="#paragraph2">Paragraph 2</a></p>
+        <p><a href="#paragraph3">Paragraph 3</a></p>
+        <p><a href="#paragraph4">Paragraph 4</a></p>
+
+        <h2><Strong>Random Paragraphs:</Strong></h2>
+        
+        <h2 id="paragraph1">Paragraph 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum fugit optio debitis rem ab id!</p>
+
+        <h2 id="paragraph2">Paragraph 2</h2>
+        <p>Porro corrupti ipsum dolores quisquam harum cupiditate impedit dolor, natus molestiae, placeat dolorum, aliquid nulla!</p>
+
+        <h2 id="paragraph3">Paragraph 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium at doloribus eius beatae nemo doloremque commodi?</p>
+
+        <h2 id="paragraph4">Paragraph 4</h2>
+        <p>Aliquam ut, ipsum, in totam, quam exercitationem deleniti iste minus molestias libero illum.</p>
+    </section>
+
+    <section>
             <h2>Picture</h2>
-        <img src="../images/colors.jpg" alt="Colorphoto" height="500" width="600">
+        <img src="../images/colors.jpg" alt="Colorphoto" height="500" width="1750">
     </section>
 </main>
 
