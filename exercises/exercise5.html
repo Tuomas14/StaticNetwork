@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 & GitHub Page - Exercise 5 and 6</title>
+    <title>HTML5 & GitHub Page - Exercise 5 and 6 | Tuomas Valtonen</title>
     <meta name="author" content="Tuomas Valtonen">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -16,16 +16,37 @@
         <p>Your go-to place for interesting content.</p>
     </header>
 
-    <nav class="container">
-        <ul>
-            <li><a href="#" class="itemNav">Home</a></li>
-            <li><a href="#" class="itemNav">About</a></li>
-            <li><a href="#" class="itemNav">News</a></li>
-            <li><a href="#" class="itemNav">Services</a></li>
-            <li><a href="#" class="itemNav">FAQ</a></li>
-            <li><a href="#" class="itemNav">Contact</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Flexbox</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Website</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">This is</a></li>
+                  <li><a class="dropdown-item" href="#">Responsive</a></li>
+                  <li><a class="dropdown-item" href="#">Navbar exercise</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <main class="container">
         <aside class="itemSmall">
@@ -37,9 +58,9 @@
             </ul>
 
         </aside>
-    <subcontainer class="subcontainer">
+    <div class="subcontainer">
         <article class="itemBig">
-            <h1>Article 1</h1>
+            <h2>Article 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid sint voluptatem deserunt mollitia cum, eius, iste possimus dolore, id maiores? Quaerat fugiat possimus quis rerum distinctio inventore. Corporis, vero!
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore, distinctio veritatis necessitatibus eos dignissimos doloremque tempore iste, ipsam soluta vitae corporis rem possimus enim at, corrupti molestiae saepe cum?
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque voluptatibus ullam assumenda amet praesentium accusamus consectetur aliquam velit, doloremque, modi nam quo sit recusandae. Minus aliquam officiis sunt cupiditate! </p>
@@ -94,12 +115,45 @@
                 <td>Naples</td>
             </tr>
         </table>
-    </subcontainer>
+
+        <h3>Contact Form</h3>
+
+<form method="post" action="process.php" class="form">
+    <label class="mb-2">Name:</label>
+    <input type="text" name="name" class="mb-2" required>
+
+    <label class="mb-2">Email:</label>
+    <input type="email" name="email" class="mb-2" required>
+
+    <label class="mb-2">Your message:</label>
+    <textarea name="msg" class="mb-2" cols="40" rows="5" required></textarea>
+
+    <label for="formRange" class="form-label mb-2">Test Slider</label>
+    <input type="range" class="form-range mb-2" min="0" max="5" step="0.5" id="formRange">
+
+    <label for="formFile" class="form-label mb-2">Upload your file</label>
+    <input class="form-control mb-2" type="file" id="formFile">
+
+    <div class="form-check mb-2">
+        <input class="form-check-input" type="checkbox" value="" id="formCheckDefault">
+        <label class="form-check-label" for="formCheckDefault">I agree to the terms and conditions</label>
+    </div>
+
+    <div class="form-check mb-2">
+        <input class="form-check-input" type="checkbox" value="" id="formCheckChecked">
+        <label class="form-check-label" for="formCheckChecked">I don't agree to the terms and conditions</label>
+    </div>
+
+    <button type="button" class="button btn btn-primary btn-sm">Lähetä</button>
+</form>
+
+
+    </div>
     
     </main>
 
     <footer id="main-footer">
-        <p>&copy; 2024 Bootstrap Exercise 6 Website. All rights reserved.</p>
+        <p>&copy; 2024 Bootstrap Exercise 5/6 Website. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
